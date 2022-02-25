@@ -1,8 +1,7 @@
 import json
 import requests
-import pandas as pd
 from secret import mondayAPIkey
-import __db_tools__ as db
+
 
 
 def push_with_columns(apikey,
